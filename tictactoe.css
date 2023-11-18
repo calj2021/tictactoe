@@ -1,0 +1,44 @@
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.game-board-css {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 1px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 8px rgba(94, 94, 246, 0.8);
+}
+
+.custom-button {
+  position: relative;
+  background-color: rgb(46, 132, 212);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  border: none;
+}
+
+.extraContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: black;
+}
+
